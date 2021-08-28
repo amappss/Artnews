@@ -1,0 +1,48 @@
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/bin/Debug/netcoreapp2.2/appsettings.Development.json
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/bin/Debug/netcoreapp2.2/appsettings.json
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/bin/Debug/netcoreapp2.2/ArtNews.deps.json
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/bin/Debug/netcoreapp2.2/ArtNews.runtimeconfig.json
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/bin/Debug/netcoreapp2.2/ArtNews.runtimeconfig.dev.json
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/bin/Debug/netcoreapp2.2/ArtNews.dll
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.csprojAssemblyReference.cache
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.RazorAssemblyInfo.cache
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.RazorAssemblyInfo.cs
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.AssemblyInfoInputs.cache
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.AssemblyInfo.cs
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.TagHelpers.input.cache
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.TagHelpers.output.cache
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.RazorCoreGenerate.cache
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.cshtml.g.cs
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.cshtml.g.cs
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.cshtml.g.cs
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.RazorTargetAssemblyInfo.cache
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.RazorTargetAssemblyInfo.cs
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/bin/Debug/netcoreapp2.2/ArtNews.pdb
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/bin/Debug/netcoreapp2.2/ArtNews.Views.dll
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/bin/Debug/netcoreapp2.2/ArtNews.Views.pdb
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.Views.pdb
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.dll
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.pdb
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.csproj.CopyComplete
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/Razor/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml.g.cs
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/Razor/Views/Login/adminSignin.cshtml.g.cs
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/Razor/Views/News/AddArtPiece.cshtml.g.cs
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/Razor/Views/News/ArtPiecesComments.cshtml.g.cs
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/Razor/Views/News/ArtPiecesList.cshtml.g.cs
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/Razor/Views/News/EditView.cshtml.g.cs
+C:/Users/Arsalan/Documents/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LoginPartial.cshtml.g.cs
+/Users/iarsalan/Documents/Git projects/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.csprojAssemblyReference.cache
+/Users/iarsalan/Documents/Git projects/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.AssemblyInfoInputs.cache
+/Users/iarsalan/Documents/Git projects/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.AssemblyInfo.cs
+/Users/iarsalan/Documents/Git projects/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.csproj.CoreCompileInputs.cache
+/Users/iarsalan/Documents/Git projects/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.RazorAssemblyInfo.cache
+/Users/iarsalan/Documents/Git projects/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.RazorAssemblyInfo.cs
+/Users/iarsalan/Documents/Git projects/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.TagHelpers.input.cache
+/Users/iarsalan/Documents/Git projects/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.TagHelpers.output.cache
+/Users/iarsalan/Documents/Git projects/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.dll
+/Users/iarsalan/Documents/Git projects/ArtNews/ArtNews/obj/Debug/netcoreapp2.2/ArtNews.pdb

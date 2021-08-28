@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewData["Title"] = "AddArtPiece";
+}
+
+@model artViewModel
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<body>
+  
+    <form style="padding:20" class="col-6" asp-action="AddArtConfirm" asp-controller="News" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label>Name of artist</label>
+            <input type="text" asp-for="author" />
+        </div>
+        <div class="form-group">
+            <label>Name of piece</label>
+            <input type="text" asp-for="name" />
+        </div>
+        <div class="form-group">
+            <label>Year</label>
+            <input type="text" asp-for="year" />
+        </div>
+        <div class="form-group">
+            <label>Introduction</label>
+            <input type="text" asp-for="introduction" />
+        </div>
+        <div class="form-group">
+            <label>Size of artist</label>
+            <input type="text" asp-for="size" />
+        </div>
+        <div class="form-group">
+            <label>Image of piece</label>
+            <input type="file" asp-for="img" id="file1" />
+            <img width="90" height="90" id="imgpre" style="margin-top:10px;margin-right:10px;float:left;border-radius:50%" />
+            <script>
+                $(function () {
+                    $(file1).change(function () {
+                        var reader = new FileReader();
+                        reader.readAsDataURL(file1.files[0]);
+                        reader.onloadend = function (e) {
+                            $(imgpre).attr("src", e.target.result);
+                        }
+                    })
+                })
+
+            </script>
+        </div>
+        <button type="submit" class="btn-success">Insert</button>
+
+
+    </form>
+</body>

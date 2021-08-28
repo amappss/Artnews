@@ -1,0 +1,105 @@
+﻿
+@{
+    ViewData["Title"] = "ArtPiecesList";
+}
+
+
+@model List<ArtPiece>
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+<body>
+    <h1>ArtPiecesList</h1>
+
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Author</th>
+            <th>Year</th>
+            <th>Size</th>
+            <th>Introduction</th>
+            <th>Rating</th>
+            <th>Image</th>
+            <th>Comments</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+
+
+            <tr>
+                <td>@item.name</td>
+                <td>@item.author</td>
+                <td>@item.year</td>
+                <td>@item.size</td>
+                <td>@item.introduction</td>
+                <td>@item.rating</td>
+                <td><img width="100" height="100" src="@($"data:image/jpeg;base64,{Convert.ToBase64String(item.img)}")" /></td>
+                <td>
+                    @if (item.comments != null)
+                    {
+                        <button value="@item.id" class="btn-info">Comments</button>
+                    }
+                    else
+                    {
+                        <label>No Comments</label>
+                    }
+                </td>
+                <td><button  value="@item.id" class="btn-warning">Edit</button></td>
+                <td><button  value="@item.id" class="btn-danger">Delete</button></td>
+            </tr>
+        }
+    </table>
+    <script>
+        $(function () {
+            $('.btn-info').click(function () {
+          //  alert($(this).val());
+                var id = $(this).val(); 
+                
+               window.location.href = '@Url.Action("ArtPiecesComments", "News")/' + id;
+
+                })
+            
+                
+            $('.btn-warning').click(function () {
+                  var id = $(this).val(); 
+                    window.location.href = '@Url.Action("EditView", "News")/' + id;
+            })
+
+            $('.btn-danger').click(function () {
+                var id = $(this).val(); 
+                $.post('/News/DeleteConfirm',{ id: id }, function (res) {
+
+                    location.reload();
+                })
+               
+            })
+         
+        })
+    </script>
+
+</body>
+
+
+
+

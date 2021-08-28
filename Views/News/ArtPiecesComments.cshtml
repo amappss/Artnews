@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewData["Title"] = "ArtPiecesComments";
+}
+
+<h1>ArtPiecesComments</h1>
+@model List<Comment>
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <th>Piece Name</th>
+            <th>User Name</th>
+            <th>Comment</th>
+            <th>Rating</th>
+            <th>State</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+    <tr>
+        <td>@item.artPiece.name</td>
+        <td>@item.writerName</td>
+        <td>@item.text</td>
+        <td>@item.rating Star(s)</td>
+        <td>
+            @{
+                if (item.approved == 0)
+                {
+                    <button artId="@item.artPiece.id" value="@item.id" class="btn-success">Accept</button>
+                    <button artId="@item.artPiece.id" value="@item.id" class="btn-warning">Deny</button>
+
+                }
+                else if (item.approved == 1)
+                {
+                    <label>Denied</label>
+
+                }
+                else
+                {
+                    <label>Approved</label>
+                }
+            }
+
+        </td>
+        </tr>
+        }
+    </table>
+
+    <script>
+        $(function () {
+            $('.btn-success').click(function () {
+                var id = $(this).val();
+                $.post('/News/commentStateAsync',{state:true, id: id,artId : $(this).attr("artId") }, function (res) {
+
+                    location.reload();
+                })
+                })
+
+
+            $('.btn-warning').click(function () {
+                var id = $(this).val();
+                $.post('/News/commentStateAsync',{state:false, id: id }, function (res) {
+
+                    location.reload();
+                })
+            })
+
+           
+
+        })
+    </script>
+</body>
