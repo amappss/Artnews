@@ -6,4 +6,3 @@ Complete back-end apis and user interface
 
 Technologies used: **Asp.net Core Mvc**
 
-By: Arsalan Majlesi
